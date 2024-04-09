@@ -11,6 +11,7 @@ A brute force attack is a method used by hackers to gain unauthorized access to 
 - Kali Linux(VM2)</b>
 - NMAP Software</b>
 - Hydra Software</b>
+- VMware</b>
 
 <h2>Steps</h2>
 Through social engineering, Beate Dietrich, an individual employed by an organization, had her information gathered. Subsequently, the account information belonging to Beate Dietrich was obtained using brute force with the password cracking tool named "HYDRA," as illustrated in the figure below. The command utilized "-L" to indicate the directory of the username. However, the command was executed within the directory where both the username and password were stored as such the directory was not specified. The "-f" command instructed Hydra to cease attempts once a successful login occurred. In other words, upon successful login, further password trials were unnecessary.
